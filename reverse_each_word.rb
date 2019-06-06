@@ -5,7 +5,7 @@ def reverse_each_word(string)
   split_string.each do |word| # for each word in the split_string array do...
     word.reverse! # reverse the word for the current array in place ["olleH", ",ereht", "dna", "woh", "era", "?uoy"]
   end 
-  split_string.join(' ')
+  split_string.join(' ') # converts array to string 
 end
   
   
