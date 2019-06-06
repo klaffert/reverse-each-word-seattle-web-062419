@@ -8,4 +8,10 @@ def reverse_each_word(string)
   split_string.join(' ') # converts array to string "olleH ,ereht dna woh era ?uoy"
 end
   
-  
+  def reverse_each_word(string)
+    split_string = string.split(" ")
+    split.string.collect do |word|
+      word.reverse!
+    end
+    split_string.join(' ')
+  end
